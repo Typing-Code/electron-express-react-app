@@ -20,4 +20,7 @@ Linux app<br>
 Windows app<br>
 <b>npm run package-win</b>
 
+Mac OS app<br>
+<b>npm run package-mac</b>
+
 Note: If you compile the app for windows from a linux system make sure to install wine 

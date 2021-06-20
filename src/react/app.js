@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
 import Hello from './components/hello/hello';
-
 const axios = require('axios');
 
 export default function App() {
@@ -23,9 +21,9 @@ export default function App() {
   }, []);
 
   return (
-    <>
+    <React.Fragment>
       <Hello />
       <button onClick={(e) => { showMessage(e) }}>Click me</button>
-    </>
+    </React.Fragment>
   )
 }
