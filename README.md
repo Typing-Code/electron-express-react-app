@@ -24,3 +24,5 @@ Mac OS app<br>
 <b>npm run package-mac</b>
 
 Note: If you compile the app for windows from a linux system make sure to install wine 
+
+Once compiled, the application that is generated is stored in the <b>release-builds</b> directory of the root directory of the project.
