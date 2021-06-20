@@ -1,9 +1,9 @@
 # electron-express-react-app
 
 ## Install
-git clone https://github.com/Dreamsmakers/electron-express-react-app.git
-cd electron-express-react-app
-npm install
+<b>git clone https://github.com/Dreamsmakers/electron-express-react-app.git</b><br>
+<b>cd electron-express-react-app</b><br>
+<b>npm install</b>
 
 ## Developing
 In the development process, in order not to be recompiling every time a change is made in the react components, a terminal must be opened where you execute the following command:<br>
