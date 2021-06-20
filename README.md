@@ -1,7 +1,7 @@
 # electron-express-react-app
 
 ## Install
-<b>git clone https://github.com/Dreamsmakers/electron-express-react-app.git</b><br>
+<b>git clone https://github.com/Typing-Code/electron-express-react-app.git</b><br>
 <b>cd electron-express-react-app</b><br>
 <b>npm install</b>
 
