@@ -26,3 +26,15 @@ Mac OS app<br>
 Note: If you compile the app for windows from a linux system make sure to install wine 
 
 Once compiled, the application that is generated is stored in the <b>release-builds</b> directory of the root directory of the project.
+
+#Utils
+If your connection is through proxy this will be useful<br>
+git through proxy<br>
+<b>git config --global http.proxy http://user:password@proxyserver:port</b><br>
+
+npm via proxy
+<b>npm config set proxy http://user:password@proxyserver:port</b><br>
+<b>npm config set https-proxy http://user:password@proxyserver:port</b><br>
+
+compile via proxy
+<b>npx cross-env ELECTRON_GET_USE_PROXY=true GLOBAL_AGENT_HTTPS_PROXY=http://user:password@proxyserver:port npm run package-win</b><br>

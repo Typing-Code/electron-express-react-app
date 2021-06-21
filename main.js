@@ -15,7 +15,7 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 1200,
     height: 800,
-    backgroundColor: "white",
+    backgroundColor: "#f5f5f5",
     webPreferences: {
       nodeIntegration: false,
       worldSafeExecuteJavaScript: true,
