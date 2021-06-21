@@ -32,9 +32,9 @@ If your connection is through proxy this will be useful<br>
 git through proxy<br>
 <b>git config --global http.proxy http://user:password@proxyserver:port</b><br>
 
-npm via proxy
+npm via proxy<br>
 <b>npm config set proxy http://user:password@proxyserver:port</b><br>
 <b>npm config set https-proxy http://user:password@proxyserver:port</b><br>
 
-compile via proxy
+compile via proxy<br>
 <b>npx cross-env ELECTRON_GET_USE_PROXY=true GLOBAL_AGENT_HTTPS_PROXY=http://user:password@proxyserver:port npm run package-win</b><br>
