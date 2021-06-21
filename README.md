@@ -27,7 +27,7 @@ Note: If you compile the app for windows from a linux system make sure to instal
 
 Once compiled, the application that is generated is stored in the <b>release-builds</b> directory of the root directory of the project.
 
-#Utils
+# Utils
 If your connection is through proxy this will be useful<br>
 git through proxy<br>
 <b>git config --global http.proxy http://user:password@proxyserver:port</b><br>
