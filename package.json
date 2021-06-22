@@ -6,9 +6,9 @@
   "scripts": {
     "start": "electron .",
     "watch": "webpack --config webpack.common.js --watch",
-    "package-linux": "electron-packager . electron-express-react-app --overwrite --asar=true --platform=linux --arch=x64 --prune=true --out=release-builds",
+    "package-linux": "electron-packager . electron-express-react-app --overwrite --platform=linux --arch=x64 --prune=true --out=release-builds",
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds",
-    "package-win": "electron-packager . electron-express-react-app --overwrite --asar=true --platform=win32 --arch=ia32 --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron express react app\""
+    "package-win": "electron-packager . electron-express-react-app --overwrite --platform=win32 --arch=ia32 --prune=true --out=release-builds --version-string.CompanyName=Typing-Code --version-string.FileDescription=CE --version-string.ProductName=\"Electron express react app\""
   },
   "keywords": [],
   "author": "",
